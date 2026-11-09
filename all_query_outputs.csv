@@ -1,0 +1,79 @@
+﻿Q1. Display all customers
+CustomerID,CustomerName,City,Country
+1,Alfreds Futterkiste,Berlin,Germany
+2,Ana Trujillo Emparedados,Mexico City,Mexico
+3,Antonio Moreno Taqueria,Mexico City,Mexico
+4,Around the Horn,London,UK
+5,Berglunds snabbkop,Lulea,Sweden
+6,Blauer See Delikatessen,Mannheim,Germany
+
+Q2. Select specific customer columns
+CustomerName,City
+Alfreds Futterkiste,Berlin
+Ana Trujillo Emparedados,Mexico City
+Antonio Moreno Taqueria,Mexico City
+Around the Horn,London
+Berglunds snabbkop,Lulea
+Blauer See Delikatessen,Mannheim
+
+Q3. Filter customers by country
+CustomerName,City,Country
+Alfreds Futterkiste,Berlin,Germany
+Blauer See Delikatessen,Mannheim,Germany
+
+Q4. Filter products by price
+ProductName,UnitPrice
+Chef Anton's Cajun Seasoning,22.0
+Grandma's Boysenberry Spread,25.0
+Ikura,31.0
+Queso Cabrales,21.0
+Tofu,23.25
+
+Q5. Use multiple conditions
+ProductName,UnitPrice,UnitsInStock
+Chef Anton's Cajun Seasoning,22.0,53
+Grandma's Boysenberry Spread,25.0,120
+Tofu,23.25,35
+
+Q6. Sort products by price (high to low)
+ProductName,UnitPrice
+Ikura,31.0
+Grandma's Boysenberry Spread,25.0
+Tofu,23.25
+Chef Anton's Cajun Seasoning,22.0
+Queso Cabrales,21.0
+Chang,19.0
+Chai,18.0
+Aniseed Syrup,10.0
+
+Q7. Sort customers alphabetically
+CustomerName,City
+Alfreds Futterkiste,Berlin
+Ana Trujillo Emparedados,Mexico City
+Antonio Moreno Taqueria,Mexico City
+Around the Horn,London
+Berglunds snabbkop,Lulea
+Blauer See Delikatessen,Mannheim
+
+Q8. Filter orders by date
+OrderID,CustomerID,OrderDate,Status
+10251,4,2026-10-08,Shipped
+10252,1,2026-10-10,Processing
+10253,5,2026-10-12,Shipped
+10254,6,2026-10-15,Cancelled
+10255,2,2026-10-18,Shipped
+
+Q9. Search names using LIKE
+ProductName
+Chai
+Chang
+Chef Anton's Cajun Seasoning
+
+Q10. Limit the result to the five cheapest products
+ProductName,UnitPrice
+Aniseed Syrup,10.0
+Chai,18.0
+Chang,19.0
+Queso Cabrales,21.0
+Chef Anton's Cajun Seasoning,22.0
+
